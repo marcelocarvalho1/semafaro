@@ -1,0 +1,66 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('imgg.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+#mensagem {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    /*Posicionamento absoluto em relação ao contorno */
+    margin-top: 200px;
+    /* Ajuste a altura conforme necessário */
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contorno span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.contorno {
+    background-color: #0e0e0e;
+    padding: 8px; 
+    border: 2px solid rgba(252, 252, 255, 0.918);
+
+    border-radius: 23px;
+}
+.vermelho {
+    background: #fd00005e;
+}
+.amarelo {
+    background: #d0dd15c0;
+}
+.verde {
+    background: #6af8058c;
+}
+.vermelho-flore {
+    background: rgb(255, 0, 0);
+    box-shadow: 0 0 15px 3px red;
+}
+.amarelo-flore {
+    background: #FFFF00;
+    box-shadow: 0 0 15px 3px #ffff00;
+}
+.verde-flore {
+    background: #76FF03;
+    box-shadow: 0 0 15px 3px #73ff00;
+}
